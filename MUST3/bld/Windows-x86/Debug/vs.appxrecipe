@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DEVELOPEMENTVM1</Machine>
+    <WindowsUser>VerlegerT</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>io.cordova.myapp60b386</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>2CCA367C17A6B110A91BC0FBE503E502335C1C027D106E51CAD2F7553ED75704</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.myapp60b386_1.0.0.0_x86__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.myapp60b386_h35559jr9hy9m!io.cordova.myapp60b386</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.myapp60b386</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\build\windows\debug\x86\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-14T14:51:36.102</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-14T14:51:33.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-14T14:51:33.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-14T14:51:33.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-14T14:51:33.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2017-07-14T14:51:33.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-14T14:51:33.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2017-07-14T14:51:33.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-14T14:51:33.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-14T14:51:33.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\images\cordova.png">
+      <PackagePath>www\images\cordova.png</PackagePath>
+      <Modified>2017-07-14T14:51:32.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2017-07-14T14:51:33.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2017-07-14T14:51:33.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2017-07-14T14:51:32.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2017-07-14T14:51:33.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\scripts\framework7.js">
+      <PackagePath>www\scripts\framework7.js</PackagePath>
+      <Modified>2017-07-14T14:51:34.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\scripts\framework7.min.js">
+      <PackagePath>www\scripts\framework7.min.js</PackagePath>
+      <Modified>2017-07-14T14:51:34.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+      <Modified>2017-07-14T14:51:32.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\scripts\my-app.js">
+      <PackagePath>www\scripts\my-app.js</PackagePath>
+      <Modified>2017-07-14T14:51:34.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2017-07-14T14:51:33.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2017-07-14T14:51:33.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2017-07-14T14:51:33.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\css\framework7.ios.colors.css">
+      <PackagePath>www\css\framework7.ios.colors.css</PackagePath>
+      <Modified>2017-07-14T14:51:33.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\css\framework7.ios.colors.min.css">
+      <PackagePath>www\css\framework7.ios.colors.min.css</PackagePath>
+      <Modified>2017-07-14T14:51:34.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\css\framework7.ios.css">
+      <PackagePath>www\css\framework7.ios.css</PackagePath>
+      <Modified>2017-07-14T14:51:34.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\css\framework7.ios.min.css">
+      <PackagePath>www\css\framework7.ios.min.css</PackagePath>
+      <Modified>2017-07-14T14:51:34.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2017-07-14T14:51:34.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\css\my-app.css">
+      <PackagePath>www\css\my-app.css</PackagePath>
+      <Modified>2017-07-14T14:51:34.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2017-07-14T14:51:34.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\scripts\framework7.js.map">
+      <PackagePath>www\scripts\framework7.js.map</PackagePath>
+      <Modified>2017-07-14T14:51:32.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\www\scripts\framework7.min.js.map">
+      <PackagePath>www\scripts\framework7.min.js.map</PackagePath>
+      <Modified>2017-07-14T14:51:32.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2017-07-14T14:51:32.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Working\MUSTApache\MUST3\MUST3\platforms\windows\build\windows\debug\x86\win8.1\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-14T14:51:35.797</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

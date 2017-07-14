@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale = 1,
+         maximum-scale = 1, minimum-scale = 1, user-scalable = no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>Swipeable Tabs </title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/framework7/1.4.2/css/framework7.ios.min.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/framework7/1.4.2/css/framework7.ios.colors.min.css" />
+</head>
+
+<body onload="setInterval(loadDoc, 1000)" class="theme-red">
+
+
+    <script type="text/javascript">
+    function computeBMI()
+    {
+        var height = Number(document.getElementById("height").value);
+
+        var weight = Number(document.getElementById("weight").value);
+
+
+
+        //Convert all units to metric
+
+
+
+        //Perform calculation
+        var BMI = weight / Math.pow(height, 2);
+        //Display result of calculation
+        document.getElementById("output").innerHTML = Math.round(BMI * 100) / 100;
+    }
+
+
+    function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+
+                var el = document.createElement('html');
+                el.innerHTML = this.responseText;
+
+
+                var weight = el.getElementsByTagName("tr")[6].getElementsByTagName("td")[1].innerHTML;
+
+
+
+                var height = el.getElementsByTagName("tr")[7].getElementsByTagName("td")[1].innerHTML;
+                //
+                //
+                //
+                document.getElementById("height").innerHTML = height;
+                document.getElementById("weight").innerHTML = weight;
+                //
+                //
+
+                //
+                //
+                //
+                ////Perform calculation
+                var BMI = weight / Math.pow(height, 2);
+                //Display result of calculation
+
+
+
+
+
+                document.getElementById("output").innerHTML = BMI
+
+
+
+
+            }
+        };
+        xhttp.open("GET", "http://192.168.4.1", true);
+
+        xhttp.send(null);
+
+    }
+    </script>
+
+
+
+
+
+
+
+
+    <div class="views">
+        <div class="view view-main">
+            <div class="pages navbar-fixed">
+                <div data-page="home" class="page with-subnavbar">
+
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="center">Swipeable Tabs</div>
+                            <div class="subnavbar">
+                                <div class="buttons-row">
+                                    <a href="#tab1" class="button active tab-link">Identification</a>
+                                    <a href="#tab2" class="button tab-link">Measurement</a>
+                                    <a href="#tab3" class="button tab-link">Weight loss</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs-swipeable-wrap">
+                        <div class="tabs">
+                            <div id="tab1" class="page-content with-subnavbar tab active">
+                                <div class="content-block">
+                                    <p>Identification</p>
+                                    <p>
+                                        PLease scan your barcode with the barcode scanner attached to the scale.
+                                        Step on the Scale and wait until the measurement is finished.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div id="tab2" class="page-content tab">
+                                <div class="content-block">
+                                    <p>This is tab 2 content</p>
+                                    <p>
+                                        Measurement coming from 287
+                                    </p>
+                                    <div class="list-block">
+                                        <ul>
+                                            <li>
+                                                <div class="item-content">
+                                                    <div class="item-inner">
+                                                        <div class="item-title label">Switch to pound</div>
+                                                        <div class="item-input">
+                                                            <label class="label-switch">
+                                                                <input type="checkbox">
+                                                                <div class="checkbox"></div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="item-content">
+                                                    <div class="item-inner">
+                                                        <div class="item-title label">Weight</div>
+                                                        <div class="item-input">
+                                                            <span id="weight"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="item-content">
+                                                    <div class="item-inner">
+                                                        <div class="item-title label">Height</div>
+                                                        <div class="item-input">
+
+                                                            <span id="height"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="item-content">
+                                                    <div class="item-inner">
+                                                        <div class="item-title label">BMI</div>
+                                                        <div class="item-input">
+                                                            <span id="output"></span>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </li>
+
+          
+<li>
+                                                <div>
+                                                    <p><a value="computeBMI" onclick="loadDoc();" class="button button-fill button-big color-gray">BMI</a></p>
+                                                </div>
+
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div id="tab3" class="page-content tab">
+                                <div class="content-block">
+                                    <p>Please enter your weightloss during the last 3-6 weeks </p>
+
+                                    <p>
+                                      
+                                         
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon f7-icons">filter</i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Slider</div>
+                                                <div class="item-input">
+                                                    <div class="range-slider">
+                                                        <input type="range" min="0" max="25" value="12.5" step="0.5">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                   
+                                               <input type="number" placeholder="1" value="1.0" step="0.5" />
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/framework7/1.4.2/js/framework7.min.js"></script>
+
+    <script>
+         // here initialize the app
+         var myApp = new Framework7();
+
+         // If your using custom DOM library, then save it to $$ variable
+         var $$ = Dom7;
+
+         // Add the view
+         var mainView = myApp.addView('.view-main', {
+            // enable the dynamic navbar for this view:
+             dynamicNavbar: true
+
+         });
+
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
